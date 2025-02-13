@@ -1,0 +1,6 @@
+[NeMo W 2025-01-27 20:15:36 nemo_logging:405] You are using an optimizer scheduler while finetuning. Are you sure this is intended?
+[NeMo W 2025-01-27 20:15:36 nemo_logging:405] Skipped conversion for config/subconfig:
+    {'_target_': 'nemo.collections.tts.modules.submodules.SpeakerLookupTable', 'n_speakers': '???', 'embedding_dim': 384}
+     Reason: Missing mandatory value: speaker_encoder.lookup_module.n_speakers
+        full_key: speaker_encoder.lookup_module.n_speakers
+        object_type=dict.
